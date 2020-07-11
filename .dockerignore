@@ -1,0 +1,23 @@
+.env
+# ignore all markdown files (md) beside all README*.md other than README-secret.md
+*.md
+!README*.md
+README-secret.md
+
+# ignore .git and .cache folders
+.git
+.cache
+
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+.gitignore
+
+*
+
+!yarn-offline-mirror/
+!src/
+!package.json
+!yarn.lock
+!.yarnrc
